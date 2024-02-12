@@ -48,12 +48,7 @@ public class ContactListStepDefinitions {
 
     }
 
-    @And("user closes browser")
-    public void userClosesBrowser() {
 
-        Driver.closeDriver();
-
-    }
     @When("user enters wrong username")
     public void user_enters_wrong_username() {
 

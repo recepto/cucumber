@@ -46,7 +46,7 @@ Feature: Parameterizing Feature
     And user closes browser
 
 
-  @MultiParameters
+  @MultiParameters @Smoke
   Scenario: Positive Login MultiParameters
     When user enters username "clarusway@hotmail.com" and password "Clarusway.123"
     And user clicks on submit button

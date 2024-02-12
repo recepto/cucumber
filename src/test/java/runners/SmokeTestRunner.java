@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",//Feature dosyalarının yolu buraya belirtilmelidir
         glue = "stepdefinitions",//Çalıştırılacak Java classlarının yolu buraya belirtilmelidir
-        tags = "@FailedScenario",//Özel olarak çalıştırılacak Scenario yada Feature Tag'i buraya belirtilir
+        tags = "@Smoke",//Özel olarak çalıştırılacak Scenario yada Feature Tag'i buraya belirtilir
         dryRun = false//dryRun = true --> Testi çalıştırmaz, eksik step definitionları tespit eder.
 )
-public class Runner {}
+public class SmokeTestRunner {}
