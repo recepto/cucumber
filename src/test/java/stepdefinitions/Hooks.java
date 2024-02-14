@@ -30,8 +30,10 @@ public class Hooks {
             System.out.println("Başarısız senaryo için ekran görüntüsü alındı: " + scenario.getName());
             // Tarayıcıda rapor açıldığında ekli olan resme tıklayarak ekran görüntüsünü görebilirsiniz.
 
-            Driver.closeDriver();
-
         }
+
+        try {Thread.sleep(3000);} catch (InterruptedException ignored) {}
+
+        Driver.closeDriver();
     }
 }
