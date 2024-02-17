@@ -18,10 +18,10 @@ public class ToDoListStepDefinitions {
         List<String> toDoList = dataTable.asList();
         System.out.println("toDoList = " + toDoList);
 
-        for (String w : toDoList){
+        for (String w : toDoList) {
             toDoListPage.input.sendKeys(w + Keys.ENTER);
         }
 
-        throw  new RuntimeException();
+        throw new RuntimeException();
     }
 }

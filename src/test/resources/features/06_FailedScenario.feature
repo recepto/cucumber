@@ -10,5 +10,3 @@ Feature: Parameterizing Feature
     And user clicks on submit button
     Then user validates sign in
     And user closes browser
-
-

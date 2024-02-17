@@ -1,5 +1,5 @@
 @Parallel
-Feature: Parallel Test LinkedIn
+Feature: Parallel Test Feature
 
   Scenario: LinkedIn Test
     Given user goes to url "https://linkedin.com"

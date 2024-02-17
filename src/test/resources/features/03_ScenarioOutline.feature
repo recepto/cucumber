@@ -47,5 +47,3 @@ Feature: Login Scenario Outline
       | clarusway@hotmail.com  |               |
       |                        | Clarusway.123 |
 
-
-

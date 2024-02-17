@@ -36,10 +36,3 @@ Feature: Data Tables
     Then user closes browser
 
 
-
-
-
-
-
-
-

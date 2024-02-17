@@ -6,4 +6,3 @@ Feature: Excel Automation
     When user enters credentials from excel "employees", sheet "info"
     Then user closes browser
 
-

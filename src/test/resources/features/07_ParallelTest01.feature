@@ -1,5 +1,5 @@
 @Parallel
-Feature: Parallel Test Form Page
+Feature: Parallel Test Feature
 
   Scenario: Form Test
     Given user goes to home page
